@@ -19,6 +19,7 @@ def csdn_to_md(url, file_name):
     time.sleep(5)  # 你可以增加时间，或者使用WebDriverWait来更精确地等待元素加载
 
     # 获取页面源代码
+    # 此处根据开发者工具查看到，文章的内容在<div id="content_views" class="htmledit_views"></div>里面
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     # 查找包含文章内容的div标签
