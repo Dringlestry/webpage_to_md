@@ -42,4 +42,4 @@ def csdn_to_md(url, file_name):
 
 
 # 示例用法
-csdn_to_md('https://blog.csdn.net/leader_song/article/details/132094080', 'output.md')
+csdn_to_md('https://blog.csdn.net/......', 'output.md')
